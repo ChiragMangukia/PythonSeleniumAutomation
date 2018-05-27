@@ -3,11 +3,11 @@ from selenium import webdriver
 
 
 def invokeChrome():
-    return webdriver.Chrome("chromedriver_win32\chromedriver.exe")
+    return webdriver.Chrome("BrowserDrivers\chromedriver.exe")
 
 
 def invokeFirefox():
-    return webdriver.Firefox("chromedriver_win32\geckodriver.exe")
+    return webdriver.Firefox("BrowserDrivers\geckodriver.exe")
 
 
 def killProcess():
