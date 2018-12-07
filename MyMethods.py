@@ -1,4 +1,3 @@
-import os
 from selenium import webdriver
 
 
@@ -8,7 +7,3 @@ def invokeChrome():
 
 def invokeFirefox():
     return webdriver.Firefox("BrowserDrivers\geckodriver.exe")
-
-
-def killProcess():
-    os.system("taskkill /f /im chromedriver.exe")
